@@ -36,7 +36,6 @@ O relatório anexo apresenta:
 * Descrição de cada algoritmo e heurística;
 * Comparação dos métodos usando os mesmos estados iniciais;
 * Tempo de execução;
-* Quantidade de nós visitados;
 * Eficiência e escalabilidade de cada abordagem;
 * Considerações sobre melhor desempenho.
 
