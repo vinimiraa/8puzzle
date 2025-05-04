@@ -70,7 +70,7 @@ class PuzzleGUI:
             "Instituição: Pontificia Universidade Católica de Minas Gerais\n\n"
             "Disciplina: Inteligência Artificial - 1º semestre de 2025\n\n"
             "GitHub: https://github.com/vinimiraa/\n\n"
-            "Repositório: https://github.com/vinimiraa"
+            "Repositório: https://github.com/vinimiraa/8puzzle"
         )
         messagebox.showinfo("Sobre o Projeto", about_text, parent=self.root, icon="info")
     # show_about
