@@ -30,8 +30,8 @@ def build_executable():
 block_cipher = None
 
 a = Analysis(
-    ['gui/app.py'],  # Alterado para apontar para gui/app.py
-    pathex=['.'],  # Adicionar o diretório atual como caminho de busca
+    ['gui/app.py'],
+    pathex=['.'],
     binaries=[],
     datas=[('puzzle/*', 'puzzle'), ('search/*', 'search'), ('heuristics/*', 'heuristics'), ('utils/*', 'utils')],
     hiddenimports=['__future__'],
