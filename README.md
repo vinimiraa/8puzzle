@@ -76,7 +76,12 @@ O relatório anexo apresenta:
 │   └── __init__.py
 │   └── util.py
 ├── tests/
-├── └── tests.py
+├── ├── tests.py
+├── ├── state_test_gui.txt
+├── └── data/
+├──     ├── Easy.txt
+├──     ├── Medium.txt
+├──     └── Hard.txt
 ├── relatório.pdf
 └── README.md
 ```
