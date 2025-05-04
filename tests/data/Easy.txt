@@ -1,0 +1,23 @@
+Case: Easy
+
+Initial State:
+1 2 3
+4 5 6
+0 7 8
+
+Goal State:
+1 2 3
+4 5 6
+7 8 0
+
+Results:
+----------------------------------------------------------------------
+Algorithm                 Time (s)   Memory (KB)     Steps     
+----------------------------------------------------------------------
+BFS                       0.0010     13.98           2         
+DFS                       0.0000     3.03            2         
+A_STAR (MANHATTAN)        0.0010     4.64            2         
+A_STAR (MISPLACED)        0.0000     4.59            2         
+GREEDY (MANHATTAN)        0.0000     3.57            2         
+GREEDY (MISPLACED)        0.0000     3.57            2         
+UCS                       0.0026     11.03           2         
