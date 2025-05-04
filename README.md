@@ -51,7 +51,11 @@ O relatório anexo apresenta:
 ```
 8puzzle/
 │
+├── 8puzzle.exe       # Executável do Jogo
+├── __init__.py
 ├── main.py
+├── build_exe.py      # Gerar Executável
+├── requirements.txt
 ├── puzzle/
 │   ├── __init__.py
 │   ├── state.py
@@ -73,15 +77,19 @@ O relatório anexo apresenta:
 │   └── __init__.py
 │   └── app.py
 ├── utils/
-│   └── __init__.py
+│   ├── __init__.py
 │   └── util.py
 ├── tests/
-├── ├── tests.py
-├── ├── state_test_gui.txt
-├── └── data/
-├──     ├── Easy.txt
-├──     ├── Medium.txt
-├──     └── Hard.txt
-├── relatório.pdf
+│   ├── tests.py
+│   ├── state_test_gui.txt
+│   └── data/
+│       ├── Easy.txt
+│       ├── Medium.txt
+│       └── Hard.txt
+├── docs/
+│   ├── relatório.pdf
+│   └── relatório.docx
+├── icon.ico          # Icone do Executável
+├── .gitignore
 └── README.md
 ```
